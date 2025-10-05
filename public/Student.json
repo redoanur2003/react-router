@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "name": "Redoan",
+        "semester": "Fall 2025",
+        "year": "2ed Year",
+        "subjects": {
+            "Math": 87,
+            "English": 78,
+            "Physics": 90,
+            "Chemistry": 84,
+            "Computer": 95
+        },
+        "credits_completed": 18
+    },
+    {
+        "id": 2,
+        "name": "Jon Snow",
+        "semester": "Fall 2024",
+        "year": "1st Year",
+        "subjects": {
+            "Math": 72,
+            "English": 85,
+            "Physics": 80,
+            "Chemistry": 76,
+            "Computer": 88
+        },
+        "credits_completed": 15
+    },
+    {
+        "id": 3,
+        "name": "Khalid",
+        "semester": "Spring 2025",
+        "year": "2nd Year",
+        "subjects": {
+            "Math": 91,
+            "English": 74,
+            "Physics": 88,
+            "Chemistry": 90,
+            "Computer": 93
+        },
+        "credits_completed": 36
+    },
+    {
+        "id": 4,
+        "name": "Jon Snow",
+        "semester": "Fall 2024",
+        "year": "2nd Year",
+        "subjects": {
+            "Math": 79,
+            "English": 83,
+            "Physics": 70,
+            "Chemistry": 65,
+            "Computer": 80
+        },
+        "credits_completed": 30
+    },
+    {
+        "id": 5,
+        "name": "Nora",
+        "semester": "Spring 2025",
+        "year": "1st Year",
+        "subjects": {
+            "Math": 85,
+            "English": 89,
+            "Physics": 91,
+            "Chemistry": 88,
+            "Computer": 92
+        },
+        "credits_completed": 20
+    },
+    {
+        "id": 6,
+        "name": "Elena",
+        "semester": "Fall 2024",
+        "year": "2nd Year",
+        "subjects": {
+            "Math": 94,
+            "English": 90,
+            "Physics": 87,
+            "Chemistry": 95,
+            "Computer": 98
+        },
+        "credits_completed": 33
+    },
+    {
+        "id": 7,
+        "name": "Liam",
+        "semester": "Spring 2025",
+        "year": "3rd Year",
+        "subjects": {
+            "Math": 68,
+            "English": 75,
+            "Physics": 72,
+            "Chemistry": 70,
+            "Computer": 85
+        },
+        "credits_completed": 48
+    },
+    {
+        "id": 8,
+        "name": "Sophia",
+        "semester": "Fall 2024",
+        "year": "3rd Year",
+        "subjects": {
+            "Math": 92,
+            "English": 88,
+            "Physics": 95,
+            "Chemistry": 90,
+            "Computer": 97
+        },
+        "credits_completed": 54
+    },
+    {
+        "id": 9,
+        "name": "Noah",
+        "semester": "Spring 2025",
+        "year": "2nd Year",
+        "subjects": {
+            "Math": 81,
+            "English": 79,
+            "Physics": 77,
+            "Chemistry": 85,
+            "Computer": 82
+        },
+        "credits_completed": 28
+    },
+    {
+        "id": 10,
+        "name": "Mia",
+        "semester": "Fall 2024",
+        "year": "1st Year",
+        "subjects": {
+            "Math": 95,
+            "English": 93,
+            "Physics": 90,
+            "Chemistry": 92,
+            "Computer": 96
+        },
+        "credits_completed": 21
+    },
+    {
+        "id": 11,
+        "name": "Ethan",
+        "semester": "Spring 2025",
+        "year": "3rd Year",
+        "subjects": {
+            "Math": 77,
+            "English": 81,
+            "Physics": 83,
+            "Chemistry": 79,
+            "Computer": 85
+        },
+        "credits_completed": 52
+    },
+    {
+        "id": 12,
+        "name": "Ava",
+        "semester": "Fall 2024",
+        "year": "2nd Year",
+        "subjects": {
+            "Math": 88,
+            "English": 91,
+            "Physics": 87,
+            "Chemistry": 90,
+            "Computer": 89
+        },
+        "credits_completed": 35
+    }
+]
