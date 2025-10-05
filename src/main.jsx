@@ -8,6 +8,7 @@ import Root from './Components/Root/Root.jsx'
 import Home from './Components/Home/Home.jsx'
 import University from './Components/University/University.jsx'
 import Students from './Components/Students/Students.jsx'
+import SingleStudentInfo from './Components/Students/Student/SingleStudentInfo.jsx'
 
 const studentData = fetch('Student.json')
   .then(res => res.json());
@@ -24,6 +25,13 @@ const router = createBrowserRouter([
         element: <Suspense fallback={<h2>Student data are loading....</h2>}>
           <Students studentData={studentData}></Students>
         </Suspense>
+      },
+      {
+        path: 'student/:studentId',
+        loader: ({ params }) =>
+          // console.log(params),
+          fetch(`Student/${params.studentId}`),
+        Component: SingleStudentInfo
       }
     ]
   }

@@ -14,7 +14,11 @@ const Student = ({ studentInfo }) => {
             <p>Semester:{semester}</p>
             <h4>credits completed{credits_completed}</h4>
             <h2>Average:{avg}</h2>
-            <NavLink><button onClick={() => setShow(!show)} className='btn btn-primary mt-3'> {show ? 'Close' : 'Show mark'}</button></NavLink>
+            <div className='flex gap-3'>
+                <NavLink className={'active: text-white p-2 rounded-2xl bg-black'} to={`/student/${studentInfo.id}`}>About</NavLink>
+                <NavLink><button onClick={() => setShow(!show)} className='btn btn-primary mt-3'> {show ? 'Close' : 'Show mark'}</button></NavLink>
+
+            </div>
         </div>
     );
 };
