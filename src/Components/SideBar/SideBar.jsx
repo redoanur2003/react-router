@@ -8,6 +8,7 @@ const SideBar = () => {
                 <NavLink to={`/`}>Home</NavLink>
                 <NavLink to={`/university`}>University</NavLink>
                 <NavLink to={`/student`}>Students</NavLink>
+                <NavLink to={`/avg-graph`}>Average graph</NavLink>
 
             </aside>
         </div>

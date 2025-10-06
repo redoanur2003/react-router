@@ -16,7 +16,7 @@ const Student = ({ studentInfo }) => {
             <h2>Average:{avg}</h2>
             <div className='flex gap-3'>
                 <NavLink className={'active: text-white p-2 rounded-2xl bg-black'} to={`/student/${studentInfo.id}`}>About</NavLink>
-                <NavLink><button onClick={() => setShow(!show)} className='btn btn-primary mt-3'> {show ? 'Close' : 'Show mark'}</button></NavLink>
+                <NavLink><button onClick={() => setShow(!show)} className='btn btn-primary mt-3 h-auto'> {show ? 'Close' : 'Show mark'}</button></NavLink>
 
             </div>
         </div>

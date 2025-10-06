@@ -7,7 +7,7 @@ const Students = ({ studentData }) => {
     return (
         <div>
             <h4>Getting all Student info</h4>
-            <div className='grid grid-cols-2 gap-5 w-auto md:grid-cols-3 '>
+            <div className='grid grid-cols-1 gap-5 w-auto md:grid-cols-3 '>
                 {data.map(studentInfo =>
                     <Student key={studentInfo.id} studentInfo={studentInfo} ></Student>
                 )}

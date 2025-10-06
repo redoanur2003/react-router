@@ -9,6 +9,7 @@ import Home from './Components/Home/Home.jsx'
 import University from './Components/University/University.jsx'
 import Students from './Components/Students/Students.jsx'
 import SingleStudentInfo from './Components/Students/Student/SingleStudentInfo.jsx'
+import AvgChart from './Components/Charts/MarkChart/AvgChart.jsx'
 
 const studentData = fetch('Student.json')
   .then(res => res.json());
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
           return data.find(s => s.id === parseInt(params.studentId));
         },
         Component: SingleStudentInfo
+      },
+      {
+        path: 'avg-graph',
+        Component: AvgChart
       }
     ]
   }
