@@ -26,11 +26,21 @@ const router = createBrowserRouter([
           <Students studentData={studentData}></Students>
         </Suspense>
       },
+      // {
+      //   path: 'student/:studentId',
+      //   // loader: ({ params }) =>
+      //   //   // console.log(params),
+      //   //   fetch(`Student/${params.studentId}`),
+
+      //   Component: SingleStudentInfo
+      // }
       {
         path: 'student/:studentId',
-        loader: ({ params }) =>
-          // console.log(params),
-          fetch(`Student/${params.studentId}`),
+        loader: async ({ params }) => {
+          const res = await fetch('/Student.json');
+          const data = await res.json();
+          return data.find(s => s.id === parseInt(params.studentId));
+        },
         Component: SingleStudentInfo
       }
     ]

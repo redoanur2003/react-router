@@ -13,7 +13,7 @@ const Nav = () => {
                     <img className='w-12' src={image} alt="" />
                     <h3>Wayne Enterprises</h3>
                 </div>
-                <div className='md:hidden' onClick={() => setState(!state)}>
+                <div className='w-4 md:hidden' onClick={() => setState(!state)}>
                     {state ? <X></X> : <Menu></Menu>}
                 </div>
                 <div className='md:hidden'>
